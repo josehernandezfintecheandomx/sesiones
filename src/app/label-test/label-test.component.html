@@ -1,0 +1,11 @@
+<div >
+  <form >
+    <select class="office">
+      <option [ngValue]="office" *ngFor="let office of offices">{{office.name}}</option>
+    </select>
+  </form>
+  <input type="text" mayuscula> 
+</div>
+<div *ngIf="loading">
+  <p>Cargando...</p>
+</div>

@@ -4,15 +4,19 @@ import { Routes, RouterModule } from '@angular/router';
 
 // Not Found Component
 import {NotFoundComponent} from './not-found/not-found.component';
-
+import {LabelTestComponent} from './label-test/label-test.component';
 /**
  * Fallback to this route when no prior route is matched.
  */
 const routes: Routes = [
   {
+    path: 'prueba',
+    component: LabelTestComponent
+  },
+  {
     path: '**',
     component: NotFoundComponent
-  }
+  },
 ];
 
 /**

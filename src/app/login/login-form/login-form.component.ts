@@ -8,6 +8,8 @@ import { finalize } from 'rxjs/operators';
 /** Custom Services */
 import { AuthenticationService } from '../../core/authentication/authentication.service';
 
+import { LabelTestComponent } from '../../label-test/label-test.component';
+
 /**
  * Login form component.
  */

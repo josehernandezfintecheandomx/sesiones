@@ -13,10 +13,11 @@ export const environment = {
     enabled: false,  // For connecting to Mifos X using OAuth2 Authentication change the value to true
     serverUrl: ''
   },
-  defaultLanguage: 'en-US',
+  defaultLanguage: 'es-MX',
   supportedLanguages: [
     'en-US',
-    'fr-FR'
+    'fr-FR',
+    'es-MX'
   ]
 };
 

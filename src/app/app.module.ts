@@ -37,6 +37,8 @@ import { ProductsModule } from './products/products.module';
 
 /** Main Routing Module */
 import { AppRoutingModule } from './app-routing.module';
+import { ButtonTestComponent } from './button-test/button-test.component';
+
 
 /**
  * App Module

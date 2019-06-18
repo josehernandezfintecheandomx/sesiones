@@ -4,6 +4,8 @@ import { Component, OnInit } from '@angular/core';
 /** Custom Services */
 import { AuthenticationService } from '../core/authentication/authentication.service';
 
+import { LabelTestComponent } from '../label-test/label-test.component';
+
 /**
  * Home component.
  */

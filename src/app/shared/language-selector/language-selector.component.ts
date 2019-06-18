@@ -37,6 +37,7 @@ export class LanguageSelectorComponent implements OnInit {
    * @param {string} language New language.
    */
   setLanguage(language: string) {
+    console.log(language);
     this.i18nService.language = language;
   }
 
