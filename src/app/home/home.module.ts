@@ -9,6 +9,8 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
+import { LabelTestComponent } from '../label-test/label-test.component';
+
 /**
  * Home Component
  *
@@ -21,7 +23,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   ],
   declarations: [
     HomeComponent,
-    DashboardComponent
+    DashboardComponent,
+    LabelTestComponent
   ]
 })
 export class HomeModule { }

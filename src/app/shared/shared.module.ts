@@ -14,6 +14,8 @@ import { ThemePickerComponent } from './theme-picker/theme-picker.component';
 import { IconsModule } from './icons.module';
 import { MaterialModule } from './material.module';
 
+import { MayusculaDirective } from '../mayuscula.directive';
+import { ButtonTestComponent } from '../button-test/button-test.component';
 /**
  * Shared Module
  *
@@ -31,7 +33,9 @@ import { MaterialModule } from './material.module';
     FileUploadComponent,
     FooterComponent,
     LanguageSelectorComponent,
-    ThemePickerComponent
+    ThemePickerComponent,
+    MayusculaDirective,
+    ButtonTestComponent
   ],
   exports: [
     FileUploadComponent,
@@ -42,7 +46,9 @@ import { MaterialModule } from './material.module';
     IconsModule,
     MaterialModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MayusculaDirective,
+    ButtonTestComponent
   ],
   entryComponents: [
     DeleteDialogComponent
